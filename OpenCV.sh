@@ -1,14 +1,14 @@
 #! /bin/bash
 cd
 mkdir _OpenCV
+cd _OpenCV
 sudo apt-get -y install open-server vim git
+
 echo "*************Install the Dependencies*************"
 sudo apt-get -y install libopencv-dev build-essential cmake git libgtk2.0-dev pkg-config python-dev python-numpy libdc1394-22 libdc1394-22-dev libjpeg-dev libpng12-dev libtiff4-dev libjasper-dev libavcodec-dev libavformat-dev libswscale-dev libxine-dev libgstreamer0.10-dev libgstreamer-plugins-base0.10-dev libv4l-dev libtbb-dev libqt4-dev libfaac-dev libmp3lame-dev libopencore-amrnb-dev libopencore-amrwb-dev libtheora-dev libvorbis-dev libxvidcore-dev x264 v4l-utils unzip
 
 echo "*************Download OpenCV 3.0.0 alpha**********"
 
-mkdir opencv
-cd opencv
 wget https://github.com/Itseez/opencv/archive/3.0.0-alpha.zip -O opencv-3.0.0-alpha.zip
 unzip opencv-3.0.0-alpha.zip
 
