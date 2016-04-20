@@ -37,6 +37,4 @@ echo "*************Running picture**********************"
 
 cd cpp
 ./cpp-example-facedetect lena.jpg
-eog lena.jpg
-
 
