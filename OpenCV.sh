@@ -1,4 +1,5 @@
 #! /bin/bash
+sudo apt-get update
 cd
 mkdir _OpenCV
 cd _OpenCV
