@@ -3,7 +3,7 @@ sudo apt-get update
 cd
 mkdir _OpenCV
 cd _OpenCV
-sudo apt-get -y install open-server vim git cmake
+sudo apt-get -y install open-server vim git cmake automake
 
 echo "*************Install the Dependencies*************"
 sudo apt-get -y install libopencv-dev build-essential libdc1394-22-dev libjpeg-dev 
